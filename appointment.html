@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-
     <header>
         <h1>Citas</h1>
         
@@ -54,7 +53,79 @@
                 </li>
             </ul>
         </nav>
+
+
     </header>
+
+    <main>
+        <section>
+            <h2>¿Desea agendar una cita?</h2>
+
+            <p>Agendado de citas:</p>
+        </section>
+
+        <form>
+            <div>
+                <label for="correo">
+                    Correo:    
+                </label>
+                <input type="email" placeholder="ejemplo@gmail" id="correo" required>
+            </div>
+            <div>
+                <label for="nombre_cita">
+                    Nombre del cliente:
+                </label>
+                <input type="text" id="nombre_cita" required>
+            </div>
+            <div>
+                <label for="phone">
+                    Telefono cliente
+                </label>
+                <input type="number" placeholder="XXX-XXX-XXXX" id="phone"required minlength="10">
+            </div>
+            <div>
+                <p>Seleccione un horario para la cita: </p>
+
+                <label>
+                    7:00 am
+                </label>
+                <input type="radio" name="H" value="7">
+                <label>
+                    12:00 pm
+                </label>
+                <input type="radio" name="H" value="12">
+                <label>
+                    4:00 pm
+                </label>
+                <input type="radio" name="H" value="4">
+                <label>
+                    8:00 pm
+                </label>
+                <input type="radio" name="H" value="8">
+            </div>
+            <div>
+                <label>
+                    Snack: 
+                </label>
+                <label for="oreo">
+                    Oreo
+                </label>
+                <input type="checkbox" id="oreo">
+                 <label for="emperador">
+                    emperador
+                </label>
+                <input type="checkbox" id="emperador">
+                 <label for="cafe">
+                    cafe
+                </label>
+                <input type="checkbox" id="cafe">
+            </div>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </main>
+
+    <hr>
 
 
     <footer>
