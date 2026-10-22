@@ -139,6 +139,24 @@ form{
     
 }
 
+.detalle_servicio{
+    list-style: none;
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.detalle_servicio li{
+    background-color: white;
+    border: 1px solid rgb(102, 50, 15);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.detalle_servicio h3 {
+    color: rgb(102, 50, 15);
+}
 
 
 
