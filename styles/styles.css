@@ -101,7 +101,7 @@ nav a {
 }
 
 form{
-     background-color: rgb(250, 241, 188);
+    background-color: rgb(250, 241, 188);
     border-color: rgb(102, 50, 15);
     border: 1px solid rgb(102, 50, 15);
     padding: 10px;
@@ -123,6 +123,24 @@ form{
     flex-direction: column;
     padding: 1px;
 }
+
+#tabla_caso{
+    border-collapse: collapse;
+}
+
+#tabla_caso td{
+    border: 1px solid rgb(102, 50, 15);
+    
+}
+#tabla_caso th{
+
+    border: 1px solid rgb(102, 50, 15);
+    padding: 8px;
+    
+}
+
+
+
 
 @media (max-width: 600px) {
     .lista-servicios {
