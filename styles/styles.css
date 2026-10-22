@@ -181,13 +181,30 @@ form{
     border-radius: 10px;
 }
 
+.mega_historia{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.mega_historia img{
+     width: 250px;
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 600px) {
-    .lista-servicios {
+    .lista_servicio {
         grid-template-columns: 1fr;
     }
 
-    .detalles-servicios {
+    .detalle_servicio {
         grid-template-columns: 1fr;
     }
+
+     .mega_historia {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
