@@ -43,6 +43,11 @@ main h2{
     font-size: 2rem;
 }
 
+main h3{
+    color:  rgb(102, 50, 15);
+    font-size: 2rem;
+}
+
 .bienvenida h2{
     color:  rgb(102, 50, 15);
     font-size: 2rem;
@@ -83,6 +88,40 @@ footer{
     border: 1px solid rgb(102, 50, 15);
     padding: 10px;
     border-radius: 8px;
+}
+
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+
+nav a {
+    font-family: "Montserrat", sans-serif;
+}
+
+form{
+     background-color: rgb(250, 241, 188);
+    border-color: rgb(102, 50, 15);
+    border: 1px solid rgb(102, 50, 15);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.apartado{
+    display: flex;
+    flex-direction: column  ;
+    
+}
+
+.apartado input{
+    border-radius: 8px;
+}
+
+.seleccion{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
 }
 
 @media (max-width: 600px) {

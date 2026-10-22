@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    
     <link rel="stylesheet" href="styles/styles.css"> 
     <title>Citas</title>
 </head>
@@ -66,25 +75,25 @@
         </section>
 
         <form>
-            <div>
+            <div class="apartado">
                 <label for="correo">
                     Correo:    
                 </label>
                 <input type="email" placeholder="ejemplo@gmail" id="correo" required>
             </div>
-            <div>
+            <div class="apartado">
                 <label for="nombre_cita">
                     Nombre del cliente:
                 </label>
                 <input type="text" id="nombre_cita" required>
             </div>
-            <div>
+            <div class="apartado">
                 <label for="phone">
                     Telefono cliente
                 </label>
                 <input type="number" placeholder="XXX-XXX-XXXX" id="phone"required minlength="10">
             </div>
-            <div>
+            <div class="seleccion">
                 <p>Seleccione un horario para la cita: </p>
 
                 <label>
@@ -104,7 +113,7 @@
                 </label>
                 <input type="radio" name="H" value="8">
             </div>
-            <div>
+            <div class="seleccion">
                 <label>
                     Snack: 
                 </label>
