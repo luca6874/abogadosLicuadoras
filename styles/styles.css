@@ -156,12 +156,38 @@ form{
 
 .detalle_servicio h3 {
     color: rgb(102, 50, 15);
+    
 }
 
+.abogadazos div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    
+}
+
+.seccion_abogado li{
+    list-style: none;
+    background-color: rgb(250, 241, 188);
+    border: 1px solid rgb(102, 50, 15);
+    text-align: center;
+}
+
+.seccion_abogado img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 @media (max-width: 600px) {
     .lista-servicios {
+        grid-template-columns: 1fr;
+    }
+
+    .detalles-servicios {
         grid-template-columns: 1fr;
     }
 }
